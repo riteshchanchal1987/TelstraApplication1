@@ -2,7 +2,7 @@
  * @file ContentInfoDetailsContract.java
  * @brief This is the contract class, it will have interfaces for model, view and presenter.
  * @author Ritesh
- * @date 19/10/2019
+ * @date 18/10/2019
  */
 
 package com.example.telstraapplication.presenter;

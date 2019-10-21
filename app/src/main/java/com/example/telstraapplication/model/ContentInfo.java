@@ -1,3 +1,10 @@
+/**
+ * @file ContentInfo.java
+ * @brief This class will  have all attribute related to the country.
+ * @author Ritesh
+ * @date 18/10/2019
+ */
+
 package com.example.telstraapplication.model;
 
 import com.google.gson.annotations.SerializedName;
@@ -47,7 +54,7 @@ public class ContentInfo {
 
     @Override
     public String toString() {
-        return "CountryItem{" +
+        return "ContentInfo {" +
                 "title=" + title +
                 ", description='" + description + '\'' +
                 ", imageHref='" + imageUrl + '\'' +

@@ -1,3 +1,10 @@
+/**
+ * @file DropBoxContent.java
+ * @brief This class will be useful when are going to call api for content which has country title(country) and list of items
+ * @author Ritesh
+ * @date 18/10/2019
+ */
+
 package com.example.telstraapplication.model;
 
 import com.google.gson.annotations.SerializedName;

@@ -1,8 +1,8 @@
 /**
  * @file ApiClient.java
  * @brief This class will have all constants related to the networking and retrofit instance
- * @author Shrikant
- * @date 15/04/2018
+ * @author Ritesh
+ * @date 18/10/2019
  */
 package com.example.telstraapplication.network;
 

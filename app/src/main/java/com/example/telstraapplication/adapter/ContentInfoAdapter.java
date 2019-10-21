@@ -24,7 +24,6 @@ import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.example.telstraapplication.model.ContentInfo;
-import com.example.telstraapplication.model.DropBoxContent;
 import com.example.telstraapplication.R;
 import com.example.telstraapplication.view.MainActivity;
 
@@ -33,7 +32,6 @@ import java.util.List;
 public class ContentInfoAdapter extends RecyclerView.Adapter<ContentInfoAdapter.MyViewHolder>  {
 
     private MainActivity mainActivity;
-    private List<DropBoxContent> dropBoxContentList;
     private List<ContentInfo> contentInfoList;
 
 
@@ -75,7 +73,6 @@ public class ContentInfoAdapter extends RecyclerView.Adapter<ContentInfoAdapter.
                         return false;
                     }
                 })
-//                .apply(new RequestOptions().placeholder(R.drawable.ic_place_holder).error(R.drawable.ic_place_holder))
                 .into(holder.ivThumbnail);
     }
 
