@@ -56,4 +56,12 @@ public class ContentInfoDetailsModel implements ContentInfoDetailsContract.Model
         });
 
     }
+
+     public boolean isSuccessful(DropBoxContent content) {
+        return content.getRows() != null && content.getRows().size() > 0;
+    }
+
+    public String getErrorMessage() {
+        return "Error in getting data. Please try again later.";
+    }
 }
