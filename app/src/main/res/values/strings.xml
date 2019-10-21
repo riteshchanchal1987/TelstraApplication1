@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Telstra Application</string>
+    <string name="communication_error">Error in getting data. Please try again later.</string>
+    <string name="mainActivityTitle"></string>
+</resources>
